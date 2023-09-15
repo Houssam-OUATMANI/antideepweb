@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <style>
+            * {
+                font-family: sans-serif;
+            } 
+
+
+            
+            h1 {
+                text-align: center;
+                color: blueviolet;
+                font-size: 50px;
+            }
+
+            form {
+                width: 500px;
+                background-color: green;
+                margin: auto;
+                padding: 30px;
+                border-radius: 10px;
+                border: 5px solid  rgb(151, 85, 85)
+            }
+
+            input {
+                width: 100%;
+                height: 30px;
+            }
+
+            textarea {
+                width: 100%;
+            }
+
+            button {
+                margin-top: 30px;
+                border-color: rgb(151, 85, 85);
+                width: 150px;
+                height: 30px;
+                background-color: rgb(31, 31, 71);
+                color: white;
+            }
+
+            body {
+                background-color: rgb(145, 183, 145) ;
+            }
+
+
+
+    </style>
+
+
+
+</head>
+
+<body>
+
+    <a href="index.html">Page principale</a>
+    <h1>Nous contacter</h1>
+
+    <form action="https://formspree.io/f/mzblvron"  method="post" >
+
+        <label for="">Nom</label>
+        <br>
+        <input type="text"  name="nom" placeholder="john doe">
+
+        <br>
+
+        <label for="">Email</label>
+        <br>
+        <input type="email" name="email" placeholder="john@doe.fr">
+
+        <br>
+        <label for="">Message</label>
+        <br>
+        <textarea  placeholder="Bonjour ..." name="message" id="" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit">Envoyer</button>
+
+    </form>
+
+
+
+</body>
+
+</html>
